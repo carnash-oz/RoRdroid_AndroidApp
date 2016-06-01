@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoreApp</string>
+    <string name="NULL_VALUE">N/A</string>
+    <string name="FAIL_RESPONSE">FAIL</string>
+
+    <string name="psvtxt_error_nointernet_conn">No conexión a internet</string>
+    <string name="psvtxt_error_badconnection">La conexión se interrumpio</string>
+
+    <string name="pref_modeaux_server">MODE_AUX_SERVER</string>
+</resources>
