@@ -24,8 +24,11 @@ public class DecodeDemoObject {
         ArrayList<DemoObject> content = new ArrayList<DemoObject>();
 
         try{
-            JSONArray arr = new JSONArray(s_json);
-            tools.Log_e("DECODE DEBUG "+s_json,TAG_CLASS);
+            JSONObject jsonObject = new JSONObject(s_json);
+            tools.Log_i("DECODE DEBUG " + s_json, TAG_CLASS);
+
+            String param_arr = jsonObject.getString("listdemo");
+            JSONArray arr = new JSONArray(param_arr);
 
             for(int i = 0; i < arr.length(); i++)
                 content.add(DecodeItem(arr.getJSONObject(i).toString()));
@@ -41,21 +44,25 @@ public class DecodeDemoObject {
 
         try{
             JSONObject jsonObject = new JSONObject(s_json);
+            tools.Log_i("DECODE DEBUG "+s_json,TAG_CLASS);
 
-            String param_gpslatitud = jsonObject.getString("gpslatitud");
-            String param_gpslongitud = jsonObject.getString("gpslatitud");
             String param_title = jsonObject.getString("title");
-            String param_info = jsonObject.getString("info");
-            String param_address = jsonObject.getString("address");
+            String param_value = jsonObject.getString("value");
+            String param_description = jsonObject.getString("descripction");
+            String param_fechacreado = jsonObject.getString("created_at");
 
-            this_item.setGpslatitud(Float.parseFloat(param_gpslatitud));
-            this_item.setGpslongitud(Float.parseFloat(param_gpslongitud));
             this_item.setTitle(param_title);
-            this_item.setInfo(param_info);
-            this_item.setAddress(param_address);
+            this_item.setValue(Integer.parseInt(param_value));
+            this_item.setDescription(param_description);
+            this_item.setFecha_creado(param_fechacreado);
 
         }catch (Exception e){
             tools.Log_e("DECODE ERROR Decoding Item. Reason: "+e,TAG_CLASS);
+
+            this_item.setTitle("ENTRADA ERRONEA");
+            this_item.setValue(0);
+            this_item.setDescription("");
+            this_item.setFecha_creado("");
         }
 
         return this_item;

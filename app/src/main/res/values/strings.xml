@@ -7,4 +7,14 @@
     <string name="psvtxt_error_badconnection">La conexión se interrumpio</string>
 
     <string name="pref_modeaux_server">MODE_AUX_SERVER</string>
+
+    <color name="color_red">#FF0000</color>
+    <color name="color_blue">#0000FF</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_bluecheese">#FF317AEE</color>
+    <color name="color_purplecheese">#692467</color>
+
+    <string name="dialog_noelements">No hay elementos</string>
+
+    <string name="options_accept">Aceptar</string>
 </resources>

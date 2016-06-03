@@ -8,12 +8,11 @@ import android.widget.Toast;
 /**
  * Created by jpblo19 on 5/16/16.
  */
-public class Tools {
+public class Tools extends LogMessage{
 
     private static String TAG_CLASS = "TOOLS CLASS";
 
     ///////--------[CONSTANTS AND FLAGS]-------///////
-    private final boolean DEBUG_LOG = true;
 
 
     //////---------[SHARE]---------------------///////
@@ -46,6 +45,12 @@ public class Tools {
         return url_server;
     }
 
+    public int toDPI(int metric){
+        final float scale = ctx.getResources().getDisplayMetrics().density;
+        int value = (int) (metric * scale + 0.5f);
+        return value;
+    }
+
     //////////-------[PREFERENCES]------------------------------------------------------------------
 
     public SharedPreferences getPref(){
@@ -54,21 +59,6 @@ public class Tools {
 
     public SharedPreferences.Editor getEditor(){
         return edit;
-    }
-
-    public void Log_i(final String text, final String TAG_CLASS){
-        if(DEBUG_LOG)
-            Log.i("DEBUG_LOG - " + TAG_CLASS, text);
-    }
-
-    public void Log_d(final String text, final String TAG_CLASS){
-        if(DEBUG_LOG)
-            Log.d("DEBUG_LOG - " + TAG_CLASS, text);
-    }
-
-    public void Log_e(final String text, final String TAG_CLASS){
-        if(DEBUG_LOG)
-            Log.e("DEBUG_LOG - " + TAG_CLASS, text);
     }
 
     public void MakeToast(String text){

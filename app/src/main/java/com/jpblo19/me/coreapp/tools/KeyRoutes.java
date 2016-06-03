@@ -8,8 +8,7 @@ public class KeyRoutes {
     //-------------[MAIN SERVER]--------------------------------------------------------------------
 
     ///////[PATH DEV]
-    //public static final String PATH_SERVER = "http://192.168.1.102/";
-    public static final String PATH_SERVER = "http://192.168.43.187:3000/";
+    public static final String PATH_SERVER = "http://172.16.116.31:3000/";
 
     ///////[PATH PROD]
     //public static final String PATH_SERVER = "http://192.168.1.102/";
@@ -17,8 +16,7 @@ public class KeyRoutes {
     //-------------[AUX SERVER]---------------------------------------------------------------------
 
     ///////[PATH DEV]
-    //public static final String AUX_PATH_SERVER = "http://192.168.1.102/";
-    public static final String AUX_PATH_SERVER = "http://192.168.43.187:3000/";
+    public static final String AUX_PATH_SERVER = "http://172.16.116.31:3000/";
 
     ///////[PATH PROD]
     //public static final String AUX_PATH_SERVER = "http://192.168.1.102/";

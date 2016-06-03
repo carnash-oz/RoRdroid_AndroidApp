@@ -19,7 +19,7 @@ import java.util.ArrayList;
 /**
  * Created by jpblo19 on 5/16/16.
  */
-public class Networking {
+public class Networking extends LogMessage{
 
 
     private static String TAG_CLASS = "NETWORKING CLASS";
@@ -49,11 +49,11 @@ public class Networking {
         final int TIMEOUT_CONNECTION = timeout_connection * 1000;
         final int TIMEOUT_RESPONSE = timeout_response * 1000;
 
-        Log.i("DEBUG_LOG - "+TAG_CLASS, "[POST] URL to: "+s_url);
+        Log_i("[POST] URL to: "+s_url,TAG_CLASS);
 
         try {
             URL url = new URL(s_url);
-            Log.i("DEBUG_LOG - " + TAG_CLASS, "[POST]  Starting URL Connection...");
+            Log_i("[POST]  Starting URL Connection...", TAG_CLASS);
 
             URLConnection uc = url.openConnection();
             uc.setDoInput(true);
@@ -70,17 +70,17 @@ public class Networking {
             InputStreamReader is = new InputStreamReader(uc.getInputStream());
             BufferedReader br = new BufferedReader(is);
 
-            Log.i("DEBUG_LOG - " + TAG_CLASS, "[POST] Reading Package...");
+            Log_i("[POST] Reading Package...", TAG_CLASS);
             String line = null;
             while((line = br.readLine()) != null)
                 RESPONSE_DATA += line;
-            Log.i("DEBUG_LOG - " + TAG_CLASS, "[POST] Package Data: "+RESPONSE_DATA);
+            Log_i("[POST] Package Data: " + RESPONSE_DATA, TAG_CLASS);
 
             wr.close();
             is.close();
         }catch (Exception e){
             RESPONSE_DATA = ctx.getString(R.string.FAIL_RESPONSE);
-            Log.e("DEBUG_LOG - " + TAG_CLASS, "[POST] ERROR TRY. Razon: " + e);
+            Log_e("[POST] ERROR TRY. Razon: " + e, TAG_CLASS);
         }
 
         return RESPONSE_DATA;
@@ -92,7 +92,7 @@ public class Networking {
         final int TIMEOUT_CONNECTION = timeout_connection * 1000;
         final int TIMEOUT_RESPONSE = timeout_response * 1000;
 
-        Log.i("DEBUG_LOG - "+TAG_CLASS, "[GET] URL to: "+s_url);
+        Log_i("[GET] URL to: " + s_url, TAG_CLASS);
 
         try{
             URL url = new URL(s_url);
@@ -104,16 +104,16 @@ public class Networking {
             InputStreamReader is = new InputStreamReader(uc.getInputStream());
             BufferedReader br = new BufferedReader(is);
 
-            Log.i("DEBUG_LOG - " + TAG_CLASS, "[GET] Reading Package...");
+            Log_i("[GET] Reading Package...",TAG_CLASS);
             String line = null;
             while((line = br.readLine()) != null)
                 RESPONSE_DATA += line;
-            Log.i("DEBUG_LOG - " + TAG_CLASS, "[GET] Package Data: "+RESPONSE_DATA);
+            Log_i("[GET] Package Data: "+RESPONSE_DATA,TAG_CLASS);
 
             is.close();
         }catch (Exception e){
             RESPONSE_DATA = ctx.getString(R.string.FAIL_RESPONSE);
-            Log.e("DEBUG_LOG - " + TAG_CLASS, "[GET] ERROR TRY. Razon: " + e);
+            Log_e("[GET] ERROR TRY. Razon: " + e,TAG_CLASS);
         }
 
         return RESPONSE_DATA;

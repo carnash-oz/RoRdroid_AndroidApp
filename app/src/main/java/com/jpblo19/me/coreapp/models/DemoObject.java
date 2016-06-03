@@ -5,36 +5,15 @@ package com.jpblo19.me.coreapp.models;
  */
 public class DemoObject {
 
-    private float gpslatitud;
-    private float gpslongitud;
-
     private String title;
-    private String info;
-    private String address;
+    private int value;
+    private String description;
+    private String fecha_creado;
 
     public DemoObject(){
-        gpslatitud = 0.0f;
-        gpslongitud = 0.0f;
-
         title = "";
-        info = "";
-        address = "";
-    }
-
-    public float getGpslatitud() {
-        return gpslatitud;
-    }
-
-    public void setGpslatitud(float gpslatitud) {
-        this.gpslatitud = gpslatitud;
-    }
-
-    public float getGpslongitud() {
-        return gpslongitud;
-    }
-
-    public void setGpslongitud(float gpslongitud) {
-        this.gpslongitud = gpslongitud;
+        value = 0;
+        description = "";
     }
 
     public String getTitle() {
@@ -45,19 +24,27 @@ public class DemoObject {
         this.title = title;
     }
 
-    public String getInfo() {
-        return info;
+    public int getValue() {
+        return value;
     }
 
-    public void setInfo(String info) {
-        this.info = info;
+    public void setValue(int value) {
+        this.value = value;
     }
 
-    public String getAddress() {
-        return address;
+    public String getDescription() {
+        return description;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getFecha_creado() {
+        return fecha_creado;
+    }
+
+    public void setFecha_creado(String fecha_creado) {
+        this.fecha_creado = fecha_creado;
     }
 }

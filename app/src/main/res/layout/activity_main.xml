@@ -14,18 +14,66 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_demo"
+            android:onClick="evt_async_demo"
             android:clickable="true"
             android:text="Descargar data"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="evt_send_print"
+            android:clickable="true"
+            android:text="Enviar Impresion"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="evt_start_geoloc_g"
+            android:clickable="true"
+            android:text="Arrancar GeoLoc (Mode:GPS)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="evt_start_geoloc_n"
+            android:clickable="true"
+            android:text="Arrancar GeoLoc (Mode:NETWORK)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="evt_stop_geoloc"
+            android:clickable="true"
+            android:text="Detener GeoLoc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_cood"
+            android:textSize="13dp"
+            android:text="0.0,0.0"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!--- PIVOT RENDER -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <!--- PIVOT RENDER [FIN] -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pivot_layout"
+                    android:orientation="vertical">
+                    <!--- PIVOT RENDER -->
+
+                    <!--- PIVOT RENDER [FIN] -->
+                </LinearLayout>
+
+            </ScrollView>
 
         </LinearLayout>
 

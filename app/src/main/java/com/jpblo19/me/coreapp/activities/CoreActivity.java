@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
 import com.jpblo19.me.coreapp.R;
+import com.jpblo19.me.coreapp.tools.GeoLocation;
 import com.jpblo19.me.coreapp.tools.Graphics;
 import com.jpblo19.me.coreapp.tools.QuickCache;
 import com.jpblo19.me.coreapp.tools.Tools;
