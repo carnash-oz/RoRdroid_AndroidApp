@@ -231,7 +231,6 @@ public class MainActivity extends CoreActivity {
         tools.Log_i("LAUNCH PRINT",TAG_CLASS);
 
         Printer printer = new Printer();
-        printer.printMessage("olakease popo");
     }
 
     private void LaunchGeoLoc(boolean flag_action, boolean flag_type){
