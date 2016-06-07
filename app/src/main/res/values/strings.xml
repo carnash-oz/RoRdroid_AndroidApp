@@ -5,6 +5,8 @@
 
     <string name="psvtxt_error_nointernet_conn">No conexión a internet</string>
     <string name="psvtxt_error_badconnection">La conexión se interrumpio</string>
+    <string name="psvtxt_error_badform">Hay campos erroneos en el formulario</string>
+    <string name="psvtxt_error_emptyform">Hay campos vacios en el formulario</string>
 
     <string name="pref_modeaux_server">MODE_AUX_SERVER</string>
 

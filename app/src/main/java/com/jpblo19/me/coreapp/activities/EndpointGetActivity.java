@@ -71,7 +71,7 @@ public class EndpointGetActivity extends CoreActivity {
         pivot_layout.removeAllViews();
 
         ArrayList<DemoObject> pool_data = qkcache.LIST_DEMO;
-        tools.Log_i("Pool Size: "+pool_data.size(),TAG_CLASS);
+        tools.Log_i("Pool Size: " + pool_data.size(), TAG_CLASS);
 
         if(pool_data.size() == 0){
             DialogNoElements();
@@ -139,7 +139,7 @@ public class EndpointGetActivity extends CoreActivity {
                 tools.Log_i("ASYNC [BACKGROUND] - GET DEMO",TAG_CLASS);
 
                 try{
-                    String s_url = tools.getServer(PREF_MODE_AUX_SERVER)+"api/demoobjects.json";
+                    String s_url = tools.getServer(PREF_MODE_AUX_SERVER)+"api/get_demoobjects.json";
 
                     String fetch_response = tools.networking.GET_HTTP_RESQUEST(s_url,20,35);
                     tools.Log_i("ASYNC [BACKGROUND] - Fetch Response: "+fetch_response,TAG_CLASS);
@@ -162,12 +162,12 @@ public class EndpointGetActivity extends CoreActivity {
 
                 progress.dismiss();
                 if(complete_fetch){
-                    if(response_info){
-                        tools.MakeToast(content.get(1));
+                    tools.MakeToast(content.get(1));
+                    if(response_info) {
                         qkcache.LIST_DEMO = (new DecodeDemoObject()).DecodeList(content.get(2));
                         ContructPool();
                     }else{
-                        tools.MakeToast(content.get(1));
+                        //DO SOMETHING WITH SUCCESS FALSE
                     }
                 }else{
                     tools.MakeToast(getString(R.string.psvtxt_error_badconnection));
@@ -199,7 +199,7 @@ public class EndpointGetActivity extends CoreActivity {
 
     /////---[EVT ACTIONS----------------------------------------------------------------------------
 
-    public void evt_async_demo(View view){
+    public void evt_async_get(View view){
         tools.Log_i("EVT ASYNC DEMO LAUNCH",TAG_CLASS);
         LaunchDemo();
     }
