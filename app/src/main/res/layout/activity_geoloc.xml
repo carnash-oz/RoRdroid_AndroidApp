@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context="com.jpblo19.me.coreapp.activities.GeolocActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,37 +14,32 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_endpoint_get"
+            android:onClick="evt_start_geoloc_g"
             android:clickable="true"
-            android:text="ENDPOINT GET"/>
+            android:text="Arrancar GeoLoc (Mode:GPS)"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_endpoint_post"
+            android:onClick="evt_start_geoloc_n"
             android:clickable="true"
-            android:text="ENDPOINT POST"/>
+            android:text="Arrancar GeoLoc (Mode:NETWORK)"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_print"
+            android:onClick="evt_stop_geoloc"
             android:clickable="true"
-            android:text="IMPRESORA"/>
+            android:text="Detener GeoLoc"/>
 
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_start_geoloc"
-            android:clickable="true"
-            android:text="GEOLOC"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="evt_start_gmaps"
-            android:clickable="true"
-            android:text="GMAPS"/>
+            android:id="@+id/textview_cood"
+            android:textSize="13dp"
+            android:text="0.0,0.0"
+            android:textStyle="bold" />
 
     </LinearLayout>
+
 </RelativeLayout>

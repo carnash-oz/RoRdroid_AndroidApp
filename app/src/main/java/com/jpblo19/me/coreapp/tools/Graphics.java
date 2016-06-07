@@ -7,6 +7,8 @@ import android.content.Context;
  */
 public class Graphics {
 
+    public static int PREF_FONT_SIZE = 13;
+
     private Context ctx;
 
     public Graphics(Context ctx){

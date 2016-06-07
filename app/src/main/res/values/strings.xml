@@ -17,4 +17,11 @@
     <string name="dialog_noelements">No hay elementos</string>
 
     <string name="options_accept">Aceptar</string>
+
+    <string name="title_activity_maps">Gmaps</string>
+    <string name="title_activity_geoloc">Geoloc</string>
+    <string name="title_activity_endpoint_get">Endpoint GET</string>
+    <string name="title_activity_endpoint_post">Endpoint POST</string>
+    <string name="title_activity_print">Printer</string>
+
 </resources>
