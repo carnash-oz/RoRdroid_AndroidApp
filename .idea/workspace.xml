@@ -6,16 +6,12 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="DEBUG_LOG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a807e9fa-6505-44e9-8558-65abd9f8efbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/json/encoders/EncodeDemoObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_get.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_get.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_post.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_post.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -37,27 +33,18 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="EndpointPostActivity.java" pinned="false" current-in-tab="true">
+            <file leaf-file-name="EndpointPostActivity.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.3546945">
-                    <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+                  <state vertical-scroll-proportion="0.0">
+                    <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
                     <folding>
                       <element signature="e#3124#3157#0" expanded="true" />
+                      <element signature="e#4170#4216#0" expanded="true" />
                       <element signature="e#4607#4655#0" expanded="true" />
                       <element signature="e#5533#5588#0" expanded="true" />
                       <element signature="e#5707#5764#0" expanded="true" />
                     </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-                    <folding />
                   </state>
                 </provider>
               </entry>
@@ -75,54 +62,38 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="EndpointGetActivity.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
+            <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="169" column="57" selection-start-line="169" selection-start-column="57" selection-end-line="169" selection-end-column="57" />
+                  <state vertical-scroll-proportion="1.342772">
+                    <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
                     <folding>
-                      <element signature="method#ContructPool#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#doInBackground#0;class#4165:6735" expanded="false" />
-                      <element signature="method#LaunchDemo#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#evt_async_get#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="imports" expanded="true" />
+                      <element signature="e#886#934#0" expanded="true" />
+                      <element signature="e#988#1036#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
+            <file leaf-file-name="EndpointGetActivity.java" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state vertical-scroll-proportion="0.0">
-                    <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-                    <folding />
+                    <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                    <folding>
+                      <element signature="method#onCreate#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="method#DialogNoElements#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="method#ContructPool#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="method#ASYNC_GET_DEMO#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="class#2927:5497" expanded="false" />
+                      <element signature="method#onPreExecute#0;class#2927:5497" expanded="false" />
+                      <element signature="method#doInBackground#0;class#2927:5497" expanded="false" />
+                      <element signature="method#onPostExecute#0;class#2927:5497" expanded="false" />
+                      <element signature="method#LaunchDemo#0;class#EndpointGetActivity#0" expanded="false" />
+                      <element signature="method#evt_async_get#0;class#EndpointGetActivity#0" expanded="false" />
+                    </folding>
                   </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="activity_endpoint_get.xml" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_get.xml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="-9.379311">
-                    <caret line="16" column="42" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="42" />
-                    <folding />
-                  </state>
-                </provider>
-                <provider editor-type-id="android-designer">
-                  <state />
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="activity_endpoint_post.xml" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_post.xml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="-14.5172415">
-                    <caret line="76" column="43" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="43" />
-                    <folding />
-                  </state>
-                </provider>
-                <provider editor-type-id="android-designer">
-                  <state />
                 </provider>
               </entry>
             </file>
@@ -148,17 +119,29 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#967#1006#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.703704">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11111111">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.47887325">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2005,15 +1988,15 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/MapsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_post.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_endpoint_get.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/json/encoders/EncodeDemoObject.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" />
       </list>
     </option>
   </component>
@@ -2458,7 +2441,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19288956" sideWeight="0.5157068" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57621443" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.239531" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36180905" sideWeight="0.5030257" order="-1" side_tool="true" content_ui="tabs" />
@@ -2600,14 +2583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2635,14 +2610,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/json/encoders/EncodeDemoObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40536514">
@@ -2664,24 +2631,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="57" selection-start-line="169" selection-start-column="57" selection-end-line="169" selection-end-column="57" />
-          <folding>
-            <element signature="method#ContructPool#0;class#EndpointGetActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#4165:6735" expanded="false" />
-            <element signature="method#LaunchDemo#0;class#EndpointGetActivity#0" expanded="false" />
-            <element signature="method#evt_async_get#0;class#EndpointGetActivity#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-10.703704">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#967#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+          <folding>
+            <element signature="e#3124#3157#0" expanded="true" />
+            <element signature="e#4170#4216#0" expanded="true" />
+            <element signature="e#4607#4655#0" expanded="true" />
+            <element signature="e#5533#5588#0" expanded="true" />
+            <element signature="e#5707#5764#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2696,24 +2674,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3546945">
-          <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <element signature="e#3124#3157#0" expanded="true" />
-            <element signature="e#4607#4655#0" expanded="true" />
-            <element signature="e#5533#5588#0" expanded="true" />
-            <element signature="e#5707#5764#0" expanded="true" />
+            <element signature="method#onCreate#0;class#EndpointGetActivity#0" expanded="false" />
+            <element signature="method#DialogNoElements#0;class#EndpointGetActivity#0" expanded="false" />
+            <element signature="method#ContructPool#0;class#EndpointGetActivity#0" expanded="false" />
+            <element signature="method#ASYNC_GET_DEMO#0;class#EndpointGetActivity#0" expanded="false" />
+            <element signature="class#2927:5497" expanded="false" />
+            <element signature="method#onPreExecute#0;class#2927:5497" expanded="false" />
+            <element signature="method#doInBackground#0;class#2927:5497" expanded="false" />
+            <element signature="method#onPostExecute#0;class#2927:5497" expanded="false" />
+            <element signature="method#LaunchDemo#0;class#EndpointGetActivity#0" expanded="false" />
+            <element signature="method#evt_async_get#0;class#EndpointGetActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11111111">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.47887325">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.342772">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#886#934#0" expanded="true" />
+            <element signature="e#988#1036#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

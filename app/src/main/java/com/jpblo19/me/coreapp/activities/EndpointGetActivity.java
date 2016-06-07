@@ -7,9 +7,7 @@ import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.jpblo19.me.coreapp.R;
 import com.jpblo19.me.coreapp.json.decoders.DecodeDemoObject;
@@ -77,33 +75,8 @@ public class EndpointGetActivity extends CoreActivity {
             DialogNoElements();
         }else{
             for(int i = 0; i < pool_data.size(); i++){
-
                 final DemoObject this_item = pool_data.get(i);
-
-                final LinearLayout row_layout = new LinearLayout(this);
-                ViewGroup.LayoutParams row_layout_params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
-                row_layout.setLayoutParams(row_layout_params);
-                row_layout.setOrientation(LinearLayout.VERTICAL);
-                row_layout.setPadding(tools.toDPI(5), tools.toDPI(5), tools.toDPI(5), tools.toDPI(5));
-                {
-                    TextView txt_title = new TextView(this);
-                    txt_title.setText(this_item.getTitle());
-                    txt_title.setSingleLine();
-
-                    TextView txt_value = new TextView(this);
-                    txt_value.setText(this_item.getValue()+"");
-                    txt_value.setSingleLine();
-
-                    TextView txt_description = new TextView(this);
-                    txt_description.setText(this_item.getDescription());
-                    txt_description.setSingleLine();
-
-                    row_layout.addView(txt_title);
-                    row_layout.addView(txt_value);
-                    row_layout.addView(txt_description);
-
-                }
-                pivot_layout.addView(row_layout);
+                pivot_layout.addView(graf.CellDemoObjectView(this_item));
             }
         }
     }

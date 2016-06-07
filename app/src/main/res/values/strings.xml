@@ -15,6 +15,14 @@
     <color name="color_green">#00FF00</color>
     <color name="color_bluecheese">#FF317AEE</color>
     <color name="color_purplecheese">#692467</color>
+    <color name="color_white">#FFF</color>
+    <color name="color_whitesoft">#EEE</color>
+    <color name="color_whitemid">#DDD</color>
+
+    <string name="pref_fontsize_simpletext">pref_fontsize_simpletext</string>
+    <string name="pref_fontsize_headertext">pref_fontsize_headertext</string>
+    <string name="pref_fontcolor_simpletext">pref_fontcolor_simpletext</string>
+    <string name="pref_fontcolor_headertext">pref_fontcolor_headertext</string>
 
     <string name="dialog_noelements">No hay elementos</string>
 
