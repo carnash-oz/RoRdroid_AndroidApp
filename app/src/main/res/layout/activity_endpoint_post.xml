@@ -76,7 +76,10 @@
             android:layout_height="wrap_content"
             android:onClick="evt_async_post"
             android:clickable="true"
-            android:text="Enviar data"/>
+            android:text="Enviar data"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bto_custom_theme"/>
 
     </LinearLayout>
 

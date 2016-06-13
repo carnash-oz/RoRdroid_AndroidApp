@@ -9,42 +9,123 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:background="@color/color_whitemid">
         android:padding="5dp">
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_endpoint_get"
-            android:clickable="true"
-            android:text="ENDPOINT GET"/>
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/color_white">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/icon_ces_bullet"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="evt_endpoint_get"
+                android:clickable="true"
+                android:text="ENDPOINT GET"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bto_custom_theme"/>
+        </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_endpoint_post"
-            android:clickable="true"
-            android:text="ENDPOINT POST"/>
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/color_white">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/icon_pur_bullet"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="evt_endpoint_post"
+                android:clickable="true"
+                android:text="ENDPOINT POST"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bto_custom_theme"/>
+        </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_print"
-            android:clickable="true"
-            android:text="IMPRESORA"/>
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/color_white">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/icon_fus_bullet"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="evt_print"
+                android:clickable="true"
+                android:text="IMPRESORA"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bto_custom_theme"/>
+        </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_start_geoloc"
-            android:clickable="true"
-            android:text="GEOLOC"/>
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/color_white">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/icon_location"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="evt_start_geoloc"
+                android:clickable="true"
+                android:text="GEOLOC"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bto_custom_theme"/>
+        </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="evt_start_gmaps"
-            android:clickable="true"
-            android:text="GMAPS"/>
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:background="@color/color_white">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:src="@drawable/icon_gmaps"
+                android:adjustViewBounds="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="evt_start_gmaps"
+                android:clickable="true"
+                android:text="GMAPS"
+                android:textStyle="bold"
+                android:textColor="@color/color_white"
+                android:background="@drawable/bto_custom_theme"/>
+        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>

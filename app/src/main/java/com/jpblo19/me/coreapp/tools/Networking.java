@@ -3,7 +3,6 @@ package com.jpblo19.me.coreapp.tools;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.util.Log;
 
 import com.jpblo19.me.coreapp.R;
 
@@ -14,7 +13,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.ArrayList;
 
 /**
  * Created by jpblo19 on 5/16/16.

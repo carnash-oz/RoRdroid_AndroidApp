@@ -15,6 +15,8 @@ import com.jpblo19.me.coreapp.models.DemoObject;
  */
 public class Graphics {
 
+    private static String TAG_CLASS = "GRAPHICS CLASS";
+    
     public static int PREF_FONTSIZE_SIMPLETEXT;
     public static int PREF_FONTSIZE_HEADERTEXT;
 

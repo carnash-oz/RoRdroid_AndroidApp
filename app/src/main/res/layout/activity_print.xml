@@ -16,7 +16,10 @@
             android:layout_height="wrap_content"
             android:onClick="evt_send_print"
             android:clickable="true"
-            android:text="ENVIAR IMPRESION"/>
+            android:text="ENVIAR IMPRESION"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bto_custom_theme"/>
 
     </LinearLayout>
 

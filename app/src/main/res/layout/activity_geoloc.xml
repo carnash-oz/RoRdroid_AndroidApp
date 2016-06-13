@@ -16,21 +16,30 @@
             android:layout_height="wrap_content"
             android:onClick="evt_start_geoloc_g"
             android:clickable="true"
-            android:text="Arrancar GeoLoc (Mode:GPS)"/>
+            android:text="Arrancar GeoLoc (Mode:GPS)"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bto_custom_theme"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="evt_start_geoloc_n"
             android:clickable="true"
-            android:text="Arrancar GeoLoc (Mode:NETWORK)"/>
+            android:text="Arrancar GeoLoc (Mode:NETWORK)"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bto_custom_theme"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="evt_stop_geoloc"
             android:clickable="true"
-            android:text="Detener GeoLoc"/>
+            android:text="Detener GeoLoc"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/bto_custom_theme"/>
 
         <TextView
             android:layout_width="match_parent"
