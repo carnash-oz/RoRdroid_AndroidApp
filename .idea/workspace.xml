@@ -6,13 +6,42 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="DEBUG_LOG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a807e9fa-6505-44e9-8558-65abd9f8efbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\appcompat_v7_22_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\do_androidsdk.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\mediarouter_v7_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_ads_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_analytics_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_appindexing_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_appinvite_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_appstate_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_auth_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_base_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_basement_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_cast_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_drive_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_fitness_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_games_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_gcm_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_identity_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_location_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_maps_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_measurement_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_nearby_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_panorama_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_plus_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_safetynet_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_vision_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_wallet_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\play_services_wearable_8_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\support_annotations_22_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juan.Ortiz\Desktop\Repositorios\RoRdroid_AndroidApp\.idea\libraries\support_v4_22_2_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RoRdroid_AndroidApp.iws" />
@@ -28,80 +57,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="EndpointPostActivity.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-                    <folding>
-                      <element signature="e#3124#3157#0" expanded="true" />
-                      <element signature="e#4170#4216#0" expanded="true" />
-                      <element signature="e#4607#4655#0" expanded="true" />
-                      <element signature="e#5533#5588#0" expanded="true" />
-                      <element signature="e#5707#5764#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Networking.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Networking.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-                    <folding>
-                      <element signature="e#619#620#0" expanded="true" />
-                      <element signature="e#649#650#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="1.342772">
-                    <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#886#934#0" expanded="true" />
-                      <element signature="e#988#1036#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="EndpointGetActivity.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0">
-                    <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-                    <folding>
-                      <element signature="method#onCreate#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#DialogNoElements#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#ContructPool#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#ASYNC_GET_DEMO#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="class#2927:5497" expanded="false" />
-                      <element signature="method#onPreExecute#0;class#2927:5497" expanded="false" />
-                      <element signature="method#doInBackground#0;class#2927:5497" expanded="false" />
-                      <element signature="method#onPostExecute#0;class#2927:5497" expanded="false" />
-                      <element signature="method#LaunchDemo#0;class#EndpointGetActivity#0" expanded="false" />
-                      <element signature="method#evt_async_get#0;class#EndpointGetActivity#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -115,14 +70,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CoreActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoreActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.2793427">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#967#1006#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="docComment;class#Tools#0" expanded="false" />
+                <element signature="method#RailsFormatCleanDatetime#0;class#Tools#0" expanded="false" />
+                <element signature="method#FormatPrice#0;class#Tools#0" expanded="false" />
+                <element signature="method#FormatIntegerComas#0;class#Tools#0" expanded="false" />
+                <element signature="method#toDPI#0;class#Tools#0" expanded="false" />
+                <element signature="method#ShowVerticalDialog#0;class#Tools#0" expanded="false" />
+                <element signature="method#RegexEmail#0;class#Tools#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,18 +113,8 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.703704">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47887325">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="9.148149">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="34" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -1997,6 +1970,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java" />
       </list>
     </option>
   </component>
@@ -2032,6 +2006,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2082,30 +2060,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RoRdroid_AndroidApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coreapp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2147,6 +2103,10 @@
               <option name="myItemId" value="coreapp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2167,10 +2127,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="encoders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2217,10 +2173,6 @@
               <option name="myItemId" value="coreapp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2231,17 +2183,9 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2250,6 +2194,7 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="BY7TLFEMOR69HMQO" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2435,36 +2380,36 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19288956" sideWeight="0.4842932" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19288956" sideWeight="0.5157068" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.239531" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19288956" sideWeight="0.5157068" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.239531" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36180905" sideWeight="0.5030257" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36180905" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19288956" sideWeight="0.4842932" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2485,11 +2430,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.203966">
           <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2519,7 +2507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.814815">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2527,13 +2514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <element signature="method#TASK_GEOLOC_INTERVAL#0;class#GeolocActivity#0" expanded="false" />
-            <element signature="method#LaunchGeoLoc#0;class#GeolocActivity#0" expanded="false" />
-            <element signature="method#evt_start_geoloc_g#0;class#GeolocActivity#0" expanded="false" />
-            <element signature="method#evt_start_geoloc_n#0;class#GeolocActivity#0" expanded="false" />
-            <element signature="method#evt_stop_geoloc#0;class#GeolocActivity#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2552,7 +2532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2560,7 +2539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29061103">
           <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2588,13 +2566,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding>
-            <element signature="e#1328#1346#0" expanded="true" />
-            <element signature="e#1919#1950#0" expanded="true" />
-            <element signature="e#2160#2197#0" expanded="true" />
-            <element signature="e#2408#2446#0" expanded="true" />
-            <element signature="e#2650#2680#0" expanded="true" />
-            <element signature="e#3406#3431#0" expanded="true" />
-            <element signature="e#3532#3561#0" expanded="true" />
+            <element signature="e#1328#1346#0" expanded="false" />
+            <element signature="e#1919#1950#0" expanded="false" />
+            <element signature="e#2160#2197#0" expanded="false" />
+            <element signature="e#2408#2446#0" expanded="false" />
+            <element signature="e#2650#2680#0" expanded="false" />
+            <element signature="e#3406#3431#0" expanded="false" />
+            <element signature="e#3532#3561#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2614,9 +2592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40536514">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2631,34 +2606,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.703704">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#967#1006#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointPostActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
           <folding>
-            <element signature="e#3124#3157#0" expanded="true" />
-            <element signature="e#4170#4216#0" expanded="true" />
-            <element signature="e#4607#4655#0" expanded="true" />
-            <element signature="e#5533#5588#0" expanded="true" />
-            <element signature="e#5707#5764#0" expanded="true" />
+            <element signature="e#3124#3157#0" expanded="false" />
+            <element signature="e#4170#4216#0" expanded="false" />
+            <element signature="e#4607#4655#0" expanded="false" />
+            <element signature="e#5533#5588#0" expanded="false" />
+            <element signature="e#5707#5764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2668,15 +2625,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
           <folding>
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/EndpointGetActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.38377535">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="method#onCreate#0;class#EndpointGetActivity#0" expanded="false" />
@@ -2693,22 +2650,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47887325">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Graphics.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.342772">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state vertical-scroll-proportion="9.148149">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="34" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/content/SharedPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/tools/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#Tools#0" expanded="false" />
+            <element signature="method#RailsFormatCleanDatetime#0;class#Tools#0" expanded="false" />
+            <element signature="method#FormatPrice#0;class#Tools#0" expanded="false" />
+            <element signature="method#FormatIntegerComas#0;class#Tools#0" expanded="false" />
+            <element signature="method#toDPI#0;class#Tools#0" expanded="false" />
+            <element signature="method#ShowVerticalDialog#0;class#Tools#0" expanded="false" />
+            <element signature="method#RegexEmail#0;class#Tools#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/jpblo19/me/coreapp/activities/CoreActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2793427">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#886#934#0" expanded="true" />
-            <element signature="e#988#1036#0" expanded="true" />
           </folding>
         </state>
       </provider>
