@@ -1,7 +1,7 @@
 package com.jpblo19.me.coreapp.json.decoders;
 
 import com.jpblo19.me.coreapp.models.DemoObject;
-import com.jpblo19.me.coreapp.tools.Tools;
+import com.jpblo19.me.coreapp.tools.LogMessage;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -11,10 +11,9 @@ import java.util.ArrayList;
 /**
  * Created by jpblo19 on 5/16/16.
  */
-public class DecodeDemoObject {
+public class DecodeDemoObject extends LogMessage {
 
     private static String TAG_CLASS = "DECODER DEMOOBJECT";
-    private Tools tools = new Tools();
 
     public DecodeDemoObject(){
         //DO NOTHING
@@ -25,7 +24,7 @@ public class DecodeDemoObject {
 
         try{
             JSONObject jsonObject = new JSONObject(s_json);
-            tools.Log_i("DECODE DEBUG " + s_json, TAG_CLASS);
+            Log_i("DECODE DEBUG " + s_json, TAG_CLASS);
 
             String param_arr = jsonObject.getString("listdemo");
             JSONArray arr = new JSONArray(param_arr);
@@ -33,7 +32,7 @@ public class DecodeDemoObject {
             for(int i = 0; i < arr.length(); i++)
                 content.add(DecodeItem(arr.getJSONObject(i).toString()));
         }catch (Exception e){
-            tools.Log_e("DECODE ERROR Decoding List. Reason: "+e,TAG_CLASS);
+            Log_e("DECODE ERROR Decoding List. Reason: "+e,TAG_CLASS);
         }
 
         return content;
@@ -44,7 +43,7 @@ public class DecodeDemoObject {
 
         try{
             JSONObject jsonObject = new JSONObject(s_json);
-            tools.Log_i("DECODE DEBUG "+s_json,TAG_CLASS);
+            Log_i("DECODE DEBUG "+s_json,TAG_CLASS);
 
             String param_title = jsonObject.getString("title");
             String param_value = jsonObject.getString("value");
@@ -57,7 +56,7 @@ public class DecodeDemoObject {
             this_item.setFecha_creado(param_fechacreado);
 
         }catch (Exception e){
-            tools.Log_e("DECODE ERROR Decoding Item. Reason: "+e,TAG_CLASS);
+            Log_e("DECODE ERROR Decoding Item. Reason: "+e,TAG_CLASS);
 
             this_item.setTitle("ENTRADA ERRONEA");
             this_item.setValue(0);

@@ -14,7 +14,7 @@ import com.jpblo19.me.coreapp.R;
 
 public class MapsActivity extends CoreActivity implements OnMapReadyCallback {
 
-    private static String TAG_CLASS = "MAIN ACTIVITY";
+    private static String TAG_CLASS = "MAPS ACTIVITY";
     private Context ctx;
     private ProgressDialog progress;
 
