@@ -68,7 +68,7 @@
                 android:id="@+id/form_demoobject_descripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:singleLine="true" />
+            android:singleLine="true" />
         </LinearLayout>
 
         <Button

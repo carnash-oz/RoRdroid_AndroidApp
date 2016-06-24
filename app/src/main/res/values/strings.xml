@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CoreApp</string>
+
     <string name="NULL_VALUE">N/A</string>
     <string name="FAIL_RESPONSE">FAIL</string>
 
