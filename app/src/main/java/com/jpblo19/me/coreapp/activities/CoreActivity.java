@@ -1,5 +1,6 @@
 package com.jpblo19.me.coreapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -13,6 +14,8 @@ import com.jpblo19.me.coreapp.tools.Tools;
  * Created by jpblo19 on 5/16/16.
  */
 public class CoreActivity extends AppCompatActivity {
+
+    private static String TAG_CLASS = "CORE ACTIVITY";
 
     public Tools tools;
     public QuickCache qkcache;
@@ -33,6 +36,8 @@ public class CoreActivity extends AppCompatActivity {
         PREF_MODE_AUX_SERVER = tools.getPref().getBoolean(getString(R.string.pref_modeaux_server),false);
     }
 
+    /////---[OVERRIDES]-----------------------------------------------------------------------------
+
     @Override
     public void onBackPressed(){
         setResult(RESULT_OK);
@@ -45,6 +50,16 @@ public class CoreActivity extends AppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode,event);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        try {
+            tools.Log_d("RESULT CODE: "+resultCode,TAG_CLASS);
+        } catch (Exception ex) {
+            tools.Log_e("ERROR Result activity. Reason: " + ex, TAG_CLASS);
+        }
     }
 
 }
