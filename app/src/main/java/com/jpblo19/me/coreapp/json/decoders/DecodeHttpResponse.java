@@ -21,6 +21,7 @@ public class DecodeHttpResponse extends LogMessage {
 
         boolean success;
         String info;
+        String command;
         String data;
 
         try{
@@ -28,16 +29,19 @@ public class DecodeHttpResponse extends LogMessage {
 
             success = entry_data.getBoolean("success");
             info = entry_data.getString("info");
+            command = entry_data.getString("command");
             data = entry_data.getString("data");
 
             content.add(success+"");
             content.add(info);
+            content.add(command);
             content.add(data);
 
         }catch (JSONException e){
             Log_e("DECODE ERROR Decoding Response. Reason: " + e, TAG_CLASS);
             content.add("false");
             content.add("Error - Fallo en el paquete de respuesta");
+            content.add("N/A");
             content.add("N/A");
         }
 
