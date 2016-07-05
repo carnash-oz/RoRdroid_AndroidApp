@@ -1,6 +1,8 @@
 package com.jpblo19.me.coreapp.activities;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
@@ -21,6 +23,9 @@ public class CoreActivity extends AppCompatActivity {
     public QuickCache qkcache;
     public Graphics graf;
 
+    public static String VERSION__APP_STRING = "0.0.0";
+    public static String VERSION__CODE_STRING = "0";
+
     public static boolean PREF_MODE_AUX_SERVER = false;             //BANDERA PARA INDICAR A QUE SERVER CONECTAR
 
     @Override
@@ -34,6 +39,13 @@ public class CoreActivity extends AppCompatActivity {
 
         //---[RELOAD PREF DATA]---//
         PREF_MODE_AUX_SERVER = tools.getPref().getBoolean(getString(R.string.pref_modeaux_server),false);
+
+        PackageInfo pInfo;
+        try {
+            pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            VERSION__APP_STRING  = pInfo.versionName+"";
+            VERSION__CODE_STRING  = pInfo.versionCode+"";
+        } catch (PackageManager.NameNotFoundException e) {}
     }
 
     /////---[OVERRIDES]-----------------------------------------------------------------------------

@@ -65,7 +65,7 @@ public class EndpointGetActivity extends CoreActivity {
 
     /////---[GRAPHICS]------------------------------------------------------------------------------
 
-    private void ContructPool(){
+    private void ConstructPool(){
         pivot_layout.removeAllViews();
 
         ArrayList<DemoObject> pool_data = qkcache.LIST_DEMO;
@@ -138,7 +138,7 @@ public class EndpointGetActivity extends CoreActivity {
                     tools.MakeToast(content.get(1));
                     if(response_info) {
                         qkcache.LIST_DEMO = (new DecodeDemoObject()).DecodeList(content.get(2));
-                        ContructPool();
+                        ConstructPool();
                     }else{
                         //DO SOMETHING WITH SUCCESS FALSE
                     }
