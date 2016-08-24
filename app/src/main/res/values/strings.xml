@@ -13,21 +13,30 @@
 
     <string name="pref_modeaux_server">MODE_AUX_SERVER</string>
 
-    <color name="color_red">#FF0000</color>
-    <color name="color_blue">#0000FF</color>
-    <color name="color_green">#00FF00</color>
+    <color name="color_red">#990000</color>
+    <color name="color_blue">#000099</color>
+    <color name="color_green">#009900</color>
+    <color name="color_lightgreen">#ccffcc</color>
+    <color name="color_lightpurple">#f1daf1</color>
+    <color name="color_lightorange">#ffd1b3</color>
+    <color name="color_lightces">#ccf5ff</color>
+    <color name="color_yellow">#ffff00</color>
+    <color name="color_orange">#ff3300</color>
     <color name="color_bluecheese">#FF317AEE</color>
     <color name="color_purplecheese">#692467</color>
     <color name="color_white">#FFF</color>
     <color name="color_whitesoft">#EEE</color>
     <color name="color_whitemid">#DDD</color>
+    <color name="color_back_black_transparency">#99000000</color>
 
+    <string name="pref_fontsize_smalltext">pref_fontsize_smalltext</string>
     <string name="pref_fontsize_simpletext">pref_fontsize_simpletext</string>
     <string name="pref_fontsize_headertext">pref_fontsize_headertext</string>
     <string name="pref_fontcolor_simpletext">pref_fontcolor_simpletext</string>
     <string name="pref_fontcolor_headertext">pref_fontcolor_headertext</string>
 
     <string name="dialog_noelements">No hay elementos</string>
+    <string name="dialog_canceltasksend">Solicitud cancelada.</string>
 
     <string name="options_accept">Aceptar</string>
 

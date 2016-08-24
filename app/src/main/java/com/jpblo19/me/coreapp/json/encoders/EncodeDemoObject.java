@@ -6,8 +6,11 @@ import com.jpblo19.me.coreapp.tools.LogMessage;
 import org.json.JSONObject;
 
 /**
- * Created by juan.ortiz on 07/06/2016.
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
+
 public class EncodeDemoObject extends LogMessage {
 
     private static String TAG_CLASS = "ENCODER_DEMOOBJECT CLASS";

@@ -7,10 +7,17 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.model.LatLng;
 import com.jpblo19.me.coreapp.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+/**
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
+ */
 
 public class GeolocActivity extends CoreActivity {
 
@@ -34,10 +41,6 @@ public class GeolocActivity extends CoreActivity {
         textview_cood = (TextView) findViewById(R.id.textview_cood);
     }
 
-    /////---[DIALOGS]-------------------------------------------------------------------------------
-
-    /////---[GRAPHICS]------------------------------------------------------------------------------
-
     /////---[ASYNC METHODS]-------------------------------------------------------------------------
 
     private void TASK_GEOLOC_INTERVAL(){
@@ -50,7 +53,8 @@ public class GeolocActivity extends CoreActivity {
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        textview_cood.setText(tools.geolocation.getGeoPosResult());
+                        LatLng tmp_latlng = tools.geolocation.getGeoPosResult();
+                        textview_cood.setText(tmp_latlng.latitude + ","+tmp_latlng.longitude);
                     }
                 });
             }

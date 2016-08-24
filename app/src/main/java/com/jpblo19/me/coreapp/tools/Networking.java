@@ -11,14 +11,17 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
 /**
+ * CORE 3
  * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
-public class Networking extends LogMessage{
 
+public class Networking extends LogMessage{
 
     private static String TAG_CLASS = "NETWORKING CLASS";
     private Context ctx;
@@ -32,11 +35,21 @@ public class Networking extends LogMessage{
         NetworkInfo netinfo = cm.getActiveNetworkInfo();
 
         if(netinfo != null && netinfo.isConnectedOrConnecting() && cm.getActiveNetworkInfo().isAvailable() && cm.getActiveNetworkInfo().isConnected()){
-          return true;
+            return true;
         }else{
             return false;
         }
 
+    }
+
+    private static HttpURLConnection HTTP_SOCKET;
+    public void DestroyActualSocket(){
+        try {
+            Log_d("Force close Http Socket", TAG_CLASS);
+            HTTP_SOCKET.disconnect();
+        }catch (Exception e){
+            Log_e("Can't close actual socket. Razon: "+e,TAG_CLASS);
+        }
     }
 
     ///////////[ASYNC CONNECTIONS]////////////////////////[ASYNC CONNECTIONS]///////////////////////
@@ -53,13 +66,15 @@ public class Networking extends LogMessage{
             URL url = new URL(s_url);
             Log_i("[POST]  Starting URL Connection...", TAG_CLASS);
 
-            URLConnection uc = url.openConnection();
+            HttpURLConnection uc = (HttpURLConnection) url.openConnection();
             uc.setDoInput(true);
             uc.setDoOutput(true);
             uc.setConnectTimeout(TIMEOUT_CONNECTION);
             uc.setReadTimeout(TIMEOUT_RESPONSE);
             uc.setRequestProperty("Accept-Charset", "UTF-8");
             uc.setRequestProperty("Content-Type", "application/json");
+
+            HTTP_SOCKET = uc;
 
             OutputStreamWriter wr = new OutputStreamWriter(uc.getOutputStream());
             wr.write(json.toString());
@@ -84,7 +99,7 @@ public class Networking extends LogMessage{
         return RESPONSE_DATA;
     }
 
-    public String GET_HTTP_RESQUEST(final String s_url, final int timeout_connection, final int timeout_response){
+    public String GET_HTTP_REQUEST(final String s_url, final int timeout_connection, final int timeout_response){
         String RESPONSE_DATA = "";
 
         final int TIMEOUT_CONNECTION = timeout_connection * 1000;
@@ -95,9 +110,11 @@ public class Networking extends LogMessage{
         try{
             URL url = new URL(s_url);
 
-            URLConnection uc = url.openConnection();
+            HttpURLConnection uc = (HttpURLConnection) url.openConnection();
             uc.setConnectTimeout(TIMEOUT_CONNECTION);
             uc.setReadTimeout(TIMEOUT_RESPONSE);
+
+            HTTP_SOCKET = uc;
 
             InputStreamReader is = new InputStreamReader(uc.getInputStream());
             BufferedReader br = new BufferedReader(is);
@@ -116,6 +133,4 @@ public class Networking extends LogMessage{
 
         return RESPONSE_DATA;
     }
-
-
 }

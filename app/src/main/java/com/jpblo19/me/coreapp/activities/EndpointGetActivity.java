@@ -13,8 +13,15 @@ import com.jpblo19.me.coreapp.R;
 import com.jpblo19.me.coreapp.json.decoders.DecodeDemoObject;
 import com.jpblo19.me.coreapp.json.decoders.DecodeHttpResponse;
 import com.jpblo19.me.coreapp.models.DemoObject;
+import com.jpblo19.me.coreapp.models.HttpResponseObject;
 
 import java.util.ArrayList;
+
+/**
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
+ */
 
 public class EndpointGetActivity extends CoreActivity {
 
@@ -63,6 +70,25 @@ public class EndpointGetActivity extends CoreActivity {
         builder.show();
     }
 
+    public void ConfirmationCancelSend(){
+
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+
+                    case DialogInterface.BUTTON_NEUTRAL:
+                        //DO NOTHING
+                        break;
+                }
+            }
+        };
+        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(this);
+        builder.setMessage(getString(R.string.dialog_canceltasksend));
+        builder.setNeutralButton(getResources().getString(R.string.options_accept), dialogClickListener);
+        builder.show();
+    }
+
     /////---[GRAPHICS]------------------------------------------------------------------------------
 
     private void ConstructPool(){
@@ -88,56 +114,72 @@ public class EndpointGetActivity extends CoreActivity {
         class asycn_method extends AsyncTask<String, String, Void> {
 
             private boolean complete_fetch;
-            private boolean response_info;
-            private ArrayList<String> content;
+            private HttpResponseObject content;
+
+            protected void forceCancel(){
+                tools.Log_e("ASYNC_GET_DEMO [[FORCE CANCEL EVENT]]", TAG_CLASS);
+                tools.networking.DestroyActualSocket();
+                this.cancel(true);
+                ConfirmationCancelSend();
+            }
+
+            @Override
+            protected void onCancelled(){
+                tools.Log_i("ASYNC_GET_DEMO [ONCANCEL] - END ASYNC",TAG_CLASS);
+            }
 
             protected void onPreExecute(){
-                tools.Log_i("ASYNC [PRE] - GET DEMO",TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [PRE] - GET DEMO",TAG_CLASS);
 
                 complete_fetch = false;
-                response_info = false;
-                content = new ArrayList<String>();
+                content = new HttpResponseObject();
 
                 progress.setTitle("Descargando");
                 progress.setMessage("favor esperar...");
                 progress.setCancelable(true);
-                progress.setIndeterminate(false);
+                progress.setIndeterminate(true);
+                progress.setOnCancelListener(new DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialog) {
+                        forceCancel();
+                    }
+                });
                 progress.show();
 
-                tools.Log_i("ASYNC [PRE] - GET DEMO (END)", TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [PRE] - GET DEMO (END)", TAG_CLASS);
             }
 
             @Override
             protected Void doInBackground(String... params) {
-                tools.Log_i("ASYNC [BACKGROUND] - GET DEMO",TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [BACKGROUND] - GET DEMO",TAG_CLASS);
 
                 try{
                     String s_url = tools.getServer(PREF_MODE_AUX_SERVER)+"api/get_demoobjects.json";
 
-                    String fetch_response = tools.networking.GET_HTTP_RESQUEST(s_url,20,35);
-                    tools.Log_i("ASYNC [BACKGROUND] - Fetch Response: "+fetch_response,TAG_CLASS);
+                    String fetch_response = tools.networking.GET_HTTP_REQUEST(s_url,20,35);
+                    tools.Log_i("ASYNC_GET_DEMO [BACKGROUND] - Fetch Response: "+fetch_response,TAG_CLASS);
 
                     if(!fetch_response.equals(getString(R.string.FAIL_RESPONSE))){
                         content = (new DecodeHttpResponse()).Decode(fetch_response);
-                        response_info = Boolean.parseBoolean(content.get(0));
                         complete_fetch = true;
+                        tools.Log_i("ASYNC_GET_DEMO [BACKGROUND] - POST REGISTRODESPACHO (COMMAND) : "+content.getCommand(),TAG_CLASS);
                     }
 
                 }catch (Exception e){
-                    tools.Log_e("ASYNC [BACKGROUND] - Catch Error. Reason: " + e, TAG_CLASS);
+                    tools.Log_e("ASYNC_GET_DEMO [BACKGROUND] - Catch Error. Reason: " + e, TAG_CLASS);
                 }
-                tools.Log_i("ASYNC [BACKGROUND] - GET DEMO (END)",TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [BACKGROUND] - (END)",TAG_CLASS);
                 return null;
             }
 
             protected void onPostExecute(Void v){
-                tools.Log_i("ASYNC [POST] - GET DEMO",TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [POST] - GET DEMO",TAG_CLASS);
 
                 progress.dismiss();
                 if(complete_fetch){
-                    tools.MakeToast(content.get(1));
-                    if(response_info) {
-                        qkcache.LIST_DEMO = (new DecodeDemoObject()).DecodeList(content.get(2));
+                    tools.MakeToast(content.getInfo());
+                    if(content.isSuccess()){
+                        qkcache.LIST_DEMO = (new DecodeDemoObject()).DecodeList(content.getData());
                         ConstructPool();
                     }else{
                         //DO SOMETHING WITH SUCCESS FALSE
@@ -146,7 +188,7 @@ public class EndpointGetActivity extends CoreActivity {
                     tools.MakeToast(getString(R.string.psvtxt_error_badconnection));
                 }
 
-                tools.Log_i("ASYNC [POST] - GET DEMO (END)",TAG_CLASS);
+                tools.Log_i("ASYNC_GET_DEMO [POST] - GET DEMO (END)",TAG_CLASS);
             }
         }
 

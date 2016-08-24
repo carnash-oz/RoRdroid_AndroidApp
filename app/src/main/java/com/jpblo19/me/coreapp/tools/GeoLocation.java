@@ -6,37 +6,54 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 
+import com.google.android.gms.maps.model.LatLng;
+
 /**
+ * CORE 3
  * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
-public class GeoLocation extends LogMessage implements LocationListener{
+
+public class GeoLocation extends LogMessage implements LocationListener {
 
     private static String TAG_CLASS = "GEOLOCATION";
 
-    protected float GEO_LATITUD = 0.0f;
-    protected float GEO_LONGITUD = 0.0f;
+    protected static float GEO_LATITUD = 0.0f;
+    protected static float GEO_LONGITUD = 0.0f;
 
     protected LocationManager locationManager;
-    private boolean isGeoLocEnabled;
+    private static boolean isGeoLocEnabled;
+    private static boolean isRunning;
 
-    public GeoLocation(Context ctx){
+    private Context ctx;
+
+    public GeoLocation(Context ctx) {
         locationManager = (LocationManager) ctx.getSystemService(Context.LOCATION_SERVICE);
-        GEO_LATITUD = 0.0f;
-        GEO_LONGITUD = 0.0f;
+        this.ctx = ctx;
+
+        isRunning = false;
+        isGeoLocEnabled = false;
     }
 
-    public boolean isGeoLocationAvailable(){
+    public boolean isReady() {
+        if (GEO_LATITUD == 0.0f && GEO_LONGITUD == 0.0f)
+            return false;
+        else
+            return true;
+    }
+
+    public boolean isGeoLocationAvailable() {
         isGeoLocEnabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER) || locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
-        Log_i("Geo Location Available: "+isGeoLocEnabled,TAG_CLASS);
+        Log_i("Geo Location Available: " + isGeoLocEnabled, TAG_CLASS);
         return isGeoLocEnabled;
     }
 
     @Override
     public void onLocationChanged(Location location) {
-        if(GEO_LATITUD != location.getLatitude() && GEO_LONGITUD != location.getLongitude()){
+        if (GEO_LATITUD != location.getLatitude() && GEO_LONGITUD != location.getLongitude()) {
             GEO_LATITUD = (float) location.getLatitude();
             GEO_LONGITUD = (float) location.getLongitude();
-            Log_i("COORDENADA GENERADA: "+GEO_LATITUD+","+GEO_LONGITUD,TAG_CLASS);
+            Log_i("COORDENADA GENERADA: " + GEO_LATITUD + "," + GEO_LONGITUD, TAG_CLASS);
         }
     }
 
@@ -55,21 +72,23 @@ public class GeoLocation extends LogMessage implements LocationListener{
 
     }
 
-    public void StartGeoLoc(boolean high_accuaracy){
-        Log_i("StartGeoLoc. HIGH_ACCU:["+high_accuaracy+"]",TAG_CLASS);
-        if(isGeoLocationAvailable()){
+    public void StartGeoLoc(boolean high_accuaracy) {
+        Log_i("StartGeoLoc. HIGH_ACCU:[" + high_accuaracy + "]", TAG_CLASS);
+        if (isGeoLocationAvailable()) {
             GEO_LATITUD = 0.0f;
             GEO_LONGITUD = 0.0f;
-            if(high_accuaracy){
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1000,0,this);
-            }else{
-                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000,0,this);
+            isRunning = true;
+            if (high_accuaracy) {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1, 1, this);
+            } else {
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 500, 1, this);
             }
         }
     }
 
-    public void StopGeoLoc(){
-        Log_i("StartGeoLoc. Shut Down GeoLoc.",TAG_CLASS);
+    public void StopGeoLoc() {
+        Log_i("StartGeoLoc. Shut Down GeoLoc.", TAG_CLASS);
+        isRunning = false;
         locationManager.removeUpdates(this);
     }
 
@@ -81,8 +100,13 @@ public class GeoLocation extends LogMessage implements LocationListener{
         return GEO_LONGITUD;
     }
 
-    public String getGeoPosResult(){
-        String s = GEO_LATITUD+","+GEO_LONGITUD;
-        return s;
+    public LatLng getGeoPosResult(){
+        LatLng geocood = new LatLng(GEO_LATITUD,GEO_LONGITUD);
+        return geocood;
     }
+
+    public boolean isRunning() {
+        return isRunning;
+    }
+
 }

@@ -12,6 +12,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.jpblo19.me.coreapp.R;
 
+/**
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
+ */
+
 public class MapsActivity extends CoreActivity implements OnMapReadyCallback {
 
     private static String TAG_CLASS = "MAPS ACTIVITY";

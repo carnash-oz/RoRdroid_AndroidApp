@@ -3,8 +3,11 @@ package com.jpblo19.me.coreapp.tools;
 import android.util.Log;
 
 /**
- * Created by jpblo19 on 6/2/16.
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
+
 public class LogMessage {
 
     private final boolean DEBUG_LOG = true;

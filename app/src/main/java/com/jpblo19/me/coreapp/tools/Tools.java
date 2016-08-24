@@ -3,11 +3,17 @@ package com.jpblo19.me.coreapp.tools;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
+import android.os.Environment;
+import android.util.Base64;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.SimpleDateFormat;
@@ -16,8 +22,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * CORE 3
  * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
+
 public class Tools extends LogMessage{
 
     private static String TAG_CLASS = "TOOLS CLASS";
@@ -56,9 +65,59 @@ public class Tools extends LogMessage{
         return url_server;
     }
 
+    ////FORMATEA TIEMPO EN SEGUNDOS EN UN STRING
+    public String formatTime(int seconds){
+        String result = "00:00";
+        try{
+            int mm = seconds / 60;
+            int ss = seconds % 60;
+            String s_mm = mm+"";
+            String s_ss = ss+"";
+
+            if(mm < 10)
+                s_mm = "0"+mm;
+
+            if(ss < 10)
+                s_ss = "0"+ss;
+
+            result = s_mm + ":"+s_ss;
+        }catch (Exception e){
+
+        }
+        return  result;
+    }
+
+    ////COMPRESS IMG TO STR
+    public String CompressToString(Bitmap bitmap){
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 90, stream);
+        byte [] byte_arr = stream.toByteArray();
+        String image_str = Base64.encodeToString(byte_arr, Base64.DEFAULT);
+        return image_str;
+    }
+
+    ////COMPRESS STR TO IMG
+    public Bitmap DecompressToImg(String image_str){
+        try {
+            byte [] encodeByte=Base64.decode(image_str,Base64.DEFAULT);
+            Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+            return bitmap;
+        } catch(Exception e) {
+            Log_e("Decompress To IMG error. Reason: "+e, TAG_CLASS);
+            return null;
+        }
+    }
+
     ////GENERA LA FECHA DE HOY (EN BASE AL CELULAR)
     public String getToday(){
-        SimpleDateFormat sdfdate  = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat sdfdate  = new SimpleDateFormat("dd/MM/yyyy");
+        Date now = new Date();
+        String str_date  = sdfdate.format(now);
+        return  str_date;
+    }
+
+    public String getNow(){
+        SimpleDateFormat sdfdate  = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss");
         Date now = new Date();
         String str_date  = sdfdate.format(now);
         return  str_date;
@@ -169,6 +228,21 @@ public class Tools extends LogMessage{
             Log_e("Error Formating Integer Comas Value. Reason: "+e,TAG_CLASS);
         }
         return r;
+    }
+
+    ////GET PATH FILE - USAR CON CAMARA, INTENT AND RESULT SE ENCARGAN DE CAPTURAR EL PUNTO DEL STORAGE
+    public File getPathFile(){
+        final File path = new File(Environment.getExternalStorageDirectory(), ctx.getPackageName());
+        if(!path.exists()){
+            path.mkdir();
+        }
+        return new File(path,"data.tmp");
+    }
+
+    ////RESIZE DE FORMATOS BITMAP
+    public static Bitmap scaleImage(Bitmap bitmap, int w, int h){
+        Bitmap result_bitmap = Bitmap.createScaledBitmap(bitmap, w, h, false);
+        return result_bitmap;
     }
 
     ////CONVERTIDOR DE DPI A DIMENSION

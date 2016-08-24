@@ -1,8 +1,11 @@
 package com.jpblo19.me.coreapp.tools;
 
 /**
+ * CORE 3
  * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
  */
+
 public class KeyRoutes {
 
     //-------------[MAIN SERVER]--------------------------------------------------------------------

@@ -1,13 +1,16 @@
-package com.jpblo19.me.coreapp.tools;
+package com.jpblo19.me.coreapp.tools.engines.PrinterDatamax;
+
+import com.jpblo19.me.coreapp.tools.LogMessage;
 
 import datamaxoneil.connection.ConnectionBase;
 import datamaxoneil.connection.Connection_Bluetooth;
 import datamaxoneil.printer.DocumentLP;
 
 /**
- * Created by jpblo19 on 6/2/16.
+ * Modified by juan.ortiz on 10/08/2016.
  */
-public class Printer extends LogMessage{
+
+public class Printer extends LogMessage {
 
     private static String TAG_CLASS = "PRINTER MODULE";
 

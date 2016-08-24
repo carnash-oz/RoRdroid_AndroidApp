@@ -9,6 +9,12 @@ import android.widget.TextView;
 
 import com.jpblo19.me.coreapp.R;
 
+/**
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
+ */
+
 public class MainActivity extends CoreActivity {
 
     private static String TAG_CLASS = "MAIN ACTIVITY";
@@ -29,14 +35,6 @@ public class MainActivity extends CoreActivity {
         textview_info_version = (TextView) findViewById(R.id.textview_info_version);
         textview_info_version.setText(getResources().getString(R.string.psvtxt_version) + " " + VERSION__APP_STRING + " (" + VERSION__CODE_STRING + ")" + "\nRuta: " + tools.getServer(PREF_MODE_AUX_SERVER));
     }
-
-    /////---[DIALOGS]-------------------------------------------------------------------------------
-
-    /////---[GRAPHICS]------------------------------------------------------------------------------
-
-    /////---[ASYNC METHODS]-------------------------------------------------------------------------
-
-    /////---[LAUNCHERS]-----------------------------------------------------------------------------
 
     /////---[EVT ACTIONS----------------------------------------------------------------------------
 

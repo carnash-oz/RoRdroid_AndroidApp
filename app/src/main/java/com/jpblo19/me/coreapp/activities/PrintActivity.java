@@ -6,7 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jpblo19.me.coreapp.R;
-import com.jpblo19.me.coreapp.tools.Printer;
+import com.jpblo19.me.coreapp.tools.engines.PrinterDatamax.Printer;
+
+/**
+ * CORE 3
+ * Created by jpblo19 on 5/16/16.
+ * Updated 8/24/16.
+ */
 
 public class PrintActivity extends CoreActivity {
 
@@ -23,12 +29,6 @@ public class PrintActivity extends CoreActivity {
         ctx = this;
         progress = new ProgressDialog(this);
     }
-
-    /////---[DIALOGS]-------------------------------------------------------------------------------
-
-    /////---[GRAPHICS]------------------------------------------------------------------------------
-
-    /////---[ASYNC METHODS]-------------------------------------------------------------------------
 
     /////---[LAUNCHERS]-----------------------------------------------------------------------------
 
