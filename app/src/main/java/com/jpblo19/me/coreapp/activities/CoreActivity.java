@@ -22,7 +22,7 @@ public class CoreActivity extends AppCompatActivity {
     private static String TAG_CLASS = "CORE ACTIVITY";
 
     public Tools tools;
-    public QuickCache qkcache;
+    public static QuickCache qkcache;
     public Graphics graf;
 
     public static String VERSION__APP_STRING = "0.0.0";
